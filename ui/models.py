@@ -22,4 +22,4 @@ class salary(models.Model):
     deposition_date = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return (self.employee_id,self.amount)
+        return (self.amount)
